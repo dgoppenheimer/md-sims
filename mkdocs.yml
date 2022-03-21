@@ -165,7 +165,10 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Page tree
+#================================================================#
+# Mkdocs Navigation Tree
+#================================================================#
+
 nav:
   - Home: index.md
   - Getting started:
@@ -216,11 +219,11 @@ nav:
     - Images: reference/images.md
     - Lists: reference/lists.md
     - MathJax: reference/mathjax.md
-  - Insiders:
-    - insiders/index.md
-    - Getting started:
-      - Installation: insiders/getting-started.md
-      - Changelog: insiders/changelog.md
+  - Course: 
+    - course/index.md
+    - Course Organization: course/course-organization.md
+    - Lab 00: course/lab00-preparation.md
+    - Lab 01: course/lab01-jupyter-colab.md
   - Blog:
     - blog/index.md
     - 2021:
