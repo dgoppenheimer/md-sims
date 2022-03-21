@@ -18,26 +18,42 @@
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
 
-# Project information
-site_name: Material for MkDocs
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+#================================================================#
+# Site Information
+#================================================================#
+
+site_name: Molecular Dynamics
+site_url: https://dgoppenheimer.github.io/md-sims/
+site_author: David G Oppenheimer
 site_description: >-
-  Create a branded static site from a set of Markdown files to host the
-  documentation of your Open Source or commercial project
+  My notes for preparing, running, and analyzing molecular dynamics simulations using Google Colab and Jupyter notebooks
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
-edit_uri: ""
+repo_name: dgoppenheimer/md-sims
+repo_url: https://github.com/dgoppenheimer/md-sims
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2022 Martin Donath
+copyright: Copyright &copy; 2022 David G Oppenheimer
 
-# Configuration
+#================================================================#
+# Mkdocs Theme (Material Mkdocs) + Extras
+#================================================================#
+
 theme:
-  name: null
-  custom_dir: !ENV [THEME_DIR, "material"]
+  name: material
+  custom_dir: material
+  palette:
+    primary: blue
+  logo: overrides/assets/logo.svg
+  favicon: overrides/assets/images/favicon.png
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.follow
+
+
 
   # Static files
   static_templates:
@@ -89,15 +105,7 @@ theme:
 # Plugins
 plugins:
   - search
-  - redirects:
-      redirect_maps:
-        changelog/insiders.md: insiders/changelog.md
-        reference/meta-tags.md: reference/index.md
-        reference/variables.md: https://mkdocs-macros-plugin.readthedocs.io/
-        sponsorship.md: insiders/index.md
-        upgrading.md: upgrade.md
-  - minify:
-      minify_html: true
+
 
 # Customization
 extra:
