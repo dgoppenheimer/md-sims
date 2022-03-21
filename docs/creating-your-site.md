@@ -242,7 +242,3 @@ or your private web space.
 
   [GitHub Pages]: publishing-your-site.md#github-pages
   [GitLab pages]: publishing-your-site.md#gitlab-pages
-
-
-some text for a test
-
