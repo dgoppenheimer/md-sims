@@ -11,21 +11,29 @@ description: >
 
 ## Course Summary
 
-| Part   | Lab    | Topic                                | Date |
-| ------ | ------ | ------------------------------------ | ---- |
-| Part 1 |        | **Getting Started**                  |      |
-|        | Lab 01 | Introduction to  <br/>Jupyter, Colab |      |
-|        | Lab 03 | analyzing PDB files                  |      |
-|        | Lab 04 | NGLView                              |      |
-|        | Lab 05 | PyMOL                                |      |
-| Part 2 |        | **MD Simulations**                   |      |
-|        | Lab 06 | Introduction                         |      |
-|        | Lab 07 | protein simulations                  |      |
-|        | Lab 08 | ligand-protein simulations           |      |
-| Part 3 |        | **Analysis of Trajectories**         |      |
-|        | Lab 09 | Introduction                         |      |
-|        | Lab 10 | MDAnalysis <br/>and correlationplus  |      |
-|        | Lab 11 | MD-Task and `gmx`                    |      |
+| Part   | Lab      | Topic                               | Date |
+| ------ | -------- | ----------------------------------- | ---- |
+| Part 1 |          | **Getting Started**                 |      |
+|        | Lab 00   | Introduction <br/>and account setup |      |
+|        | Lab 01   | Jupyter and Colaboratory            |      |
+|        | Lab 02   | analyzing PDB files                 |      |
+|        | Lab 03   | NGLView                             |      |
+|        | Lab 04   | Plotly                              |      |
+|        | Lab 05   | VMD                                 |      |
+|        | Lab 05.5 | PyMOL (optional)                    |      |
+| Part 2 |          | **MD Simulations**                  |      |
+|        | Lab 06   | Introduction to MD                  |      |
+|        | Lab 07   | GROMACS tutorial                    |      |
+|        | Lab 08   | GROMACS                             |      |
+|        | Lab 09   | OpenMM                              |      |
+|        | Lab 10   | NAMD and CHARMM                     |      |
+| Part 3 |          | **Trajectory Analysis**             |      |
+|        | Lab 11   | Introduction to MD analysis         |      |
+|        | Lab 12   | RMSD and RMSF                       |      |
+|        | Lab 13   | MDAnalysis                          |      |
+|        | Lab 14   | MD-Task and `gmx`                   |      |
+| Part 4 |          | **Example Publications**            |      |
+|        | Lab 15   |                                     |      |
 
 ## Course Outline
 
@@ -60,7 +68,7 @@ description: >
             - docking (Vina/Smina, Dock, MTiOpenScreen)
         - membrane protein simulations (optional)
 
-- Part 3. Analysis of Trajectories
+- Part 3. Trajectory Analysis
     - introduction
     - software tools
         - MDAnalysis- correlationplus
@@ -76,6 +84,12 @@ description: >
         - residue interaction network (RIN) analysis
         - perturbation response scanning (PRS)
         - dynamic cross-correlation (MD-Task) (may not work on colab)
+
+- Part 4. Example Publications
+
+
+
+
 
 ## Additional Resources
 
@@ -112,3 +126,14 @@ See [Structure validation practical - answers](https://www.ebi.ac.uk/pdbe/modval
 ## Other Courses
 
 [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
+
+
+Open Lab.01 IBM 3202
+for protein files with grep
+
+also look at the Cancer Biology PyMOL docking project for multiple examples of `grep`-ping files for fun and profit.
+
+get pdb file &#8594; ? &#8594; profit!
+
+
+
