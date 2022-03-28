@@ -31,6 +31,7 @@ site_description: >-
 # Repository
 repo_name: dgoppenheimer/md-sims
 repo_url: https://github.com/dgoppenheimer/md-sims
+edit_uri: ""
 
 # Copyright
 copyright: Copyright &copy; 2022 David G Oppenheimer
@@ -170,7 +171,6 @@ nav:
     - License: license.md
   - User Guide:
     - Introduction: user-guide/introduction.md
-    - Getting Started: user-guide/getting-started.md
     - Building This Site: user-guide/building-this-site.md
     - user-guide/using-plotly.md
     - user-guide/md-analysis/analysis-amber.md
