@@ -167,7 +167,6 @@ nav:
   - Home: index.md
   - Getting started:
     - Installation: getting-started.md
-    - Alternatives: alternatives.md
     - License: license.md
   - Reference: 
     - reference/ligplot.md
