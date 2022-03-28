@@ -1,0 +1,17 @@
+---
+date: 2022-02-26
+---
+# Molecular Dynamics Simulations with GROMACS
+
+## Resources
+
+- [Interactive Molecular Dynamics with GROMACS](https://www.mpinat.mpg.de/grubmueller/interactivemd): This runs within VMD.
+- [Managing long simulations](https://manual.gromacs.org/documentation/current/user-guide/managing-simulations.html): There is a good section on reproducibility, which should be presented in class.
+
+
+
+## Trp-cage
+
+2jof
+
+[The tryptophan-cage (Trp-cage) is a stability (*sic*) folded mini protein](https://www.biosyn.com/tew/The-tryptophan-cage-(Trp-cage)-is-a-stability-folded-mini-protein.aspx)
