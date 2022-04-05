@@ -128,12 +128,14 @@ See [Structure validation practical - answers](https://www.ebi.ac.uk/pdbe/modval
 [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
 
 
-Open Lab.01 IBM 3202
-for protein files with grep
+Open Lab.01 IBM 3202  
+for preparing protein structure (`pdb`) files with `grep`  
 
-also look at the Cancer Biology PyMOL docking project for multiple examples of `grep`-ping files for fun and profit.
+also look at the Cancer Biology PyMOL docking project for multiple examples of `grep`-ping files for fun and profit.  
 
-get pdb file &#8594; ? &#8594; profit!
+!!! quote ""
+
+    get `.pdb` file &#8594; ? &#8594; profit!
 
 
 

@@ -103,10 +103,6 @@ theme:
   icon:
     logo: logo
 
-# Plugins
-plugins:
-  - search
-
 
 #================================================================#
 # Mkdocs Markdown Extensions, Plugins & extras
@@ -153,7 +149,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
-    - mkdocs-video
+  - mkdocs-video
+  - search
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -175,11 +172,12 @@ nav:
     - user-guide/using-plotly.md
     - user-guide/md-analysis/analysis-amber.md
     - user-guide/md-analysis/analysis-bio3d.md
-    - user-guide/md-analysis/analysis-gromacs.md
     - user-guide/md-sims/mdsim-gromacs.md
     - user-guide/md-sims/mdsim-mdanalysis.md
     - MD Analysis:
+      - Ramachandran Plots: user-guide/md-analysis/ramachandran-plots.md
       - MD Analysis with VMD: user-guide/md-analysis/analysis-vmd.md
+      - user-guide/md-analysis/analysis-gromacs.md
   - Reference: 
     - reference/ligplot.md
     - reference/ligpargen.md
@@ -189,6 +187,9 @@ nav:
     - reference/conda-colab.md
     - reference/color-by-rmsd.md
     - reference/example-articles.md
+    - reference/useful-references.md
+    - reference/using-grep.md
+    - PDB Files:  reference/pdb-file-manipulation.md
   - Course: 
     - course/index.md
     - Course Organization: course/course-organization.md

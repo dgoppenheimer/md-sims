@@ -61,7 +61,6 @@ MkDocs always strives to support the latest versions, so there's no need to
 install those packages separately.
 
   [semantic versioning]: https://semver.org/
-  [upgrade to the next major version]: upgrade.md
   [Markdown]: https://python-markdown.github.io/
   [Pygments]: https://pygments.org/
   [Python Markdown Extensions]: https://facelessuser.github.io/pymdown-extensions/

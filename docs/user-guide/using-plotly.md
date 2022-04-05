@@ -838,7 +838,13 @@ panda_df = pd.DataFrame(data = numpyArray[1:, 1:],
 print(panda_df)
 ```
 
+### Plotting `.xvg` files
 
+See [how can i plt this data? its file extension is .xvg](https://stackoverflow.com/questions/42151900/how-can-i-plt-this-data-its-file-extension-is-xvg)
+
+Use `grep` to strip out comments. Then import the two columns of data into plotly.
+
+I got the charting to work great. See the gromacs-test notebook.
 
 
 
