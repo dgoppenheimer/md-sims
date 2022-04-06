@@ -1,5 +1,34 @@
 # Analysis of Dihedral Angles Using a Ramachandran Plot
 
+
+
+
+### z-score
+
+
+See this [introduction to the Ramachandran Z-score](https://swift.cmbi.umcn.nl/gv/pdbreport/checkhelp/intro.html)
+
+Also see this post on [Rama-Z in PDB-REDO](https://www.mail-archive.com/ccp4bb@jiscmail.ac.uk/msg50851.html)
+
+
+
+$$
+z = \frac{x-\mu}{\sigma}
+$$
+
+where:
+
+$x$ is the measured value,
+$\mu$ is the mean of the population,
+$\sigma$ is the standard deviation of the population.
+
+
+So z is negative if the value "x" is less than the mean, and z is positive if the value is greater than the mean. If we define "outliers" as measurements that are greater than 4 standard deviations from the mean, then outliers are those measurements with $z\leq$ 4 or $z\geq$ 4.
+
+
+
+---
+
 Here is an interactive Ramachandran plot made using Plotly on Google Colab.
 
 
