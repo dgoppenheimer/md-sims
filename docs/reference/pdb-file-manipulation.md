@@ -6,7 +6,7 @@ tags:
 
 # More `.pdb` file manipulation
 
-Some `pdb` files from the RCSB database contain more than one model. Structures solved by NMR often have multiple structure models--20 is common. To extract a single model for docking or MD simulations, you can always open the file in PyMOL or VMD and save a single model as a new file. But we can also do this easily using `grep`, `awk`, or `sed`. Here we will use the *stream editor*, `sed`, because `grep` is designed for use on lines of text and we want to collect a block of text.
+Some `pdb` files from the RCSB database contain more than one model. Structures solved by NMR often have multiple structure models--20 is common. To extract a single model for docking or MD simulations, you can always open the file in PyMOL or VMD and save a single model as a new file. But we can also do this easily using `grep`, `awk`, or `sed`. Here we will use the ***s**tream **ed**itor*, `sed`, because `grep` is designed for use on lines of text and we want to collect a block of text.
 
 !!! info
 
@@ -14,7 +14,7 @@ Some `pdb` files from the RCSB database contain more than one model. Structures 
 
 Below we will extract a single model from a multi-model structure file.
 
-`1qLz` is a typical multi-model structure file that has 20 structures in the same file. They have the format, below.
+`1qLz` is a typical multi-model structure file that has 20 structures in the same file. Multi-model files have the following format.
 
 ```pdb
 MODEL        1                                                                  
@@ -51,7 +51,7 @@ sed -E -n '/^MODEL +1 /,/^ENDMDL/w 1qLz-model1.pdb' 1qlz.pdb
     `1qlz.pdb` is the input file
 
 
-Check that your protein is indeed the human prion protein. It is easy to mistake `1qlz` for `1q1z`. That is why it is best to use lowercase letters for the structure file names (except for the letter, L, where we use upper case), because the letter,`o`, will not be mistaken for the number `0`.
+Check that your protein is indeed the human prion protein. It is easy to mistake `1qlz` for `1q1z`. That is why it is best to use lowercase letters for the structure file names (except for the letter, L, where we use upper case), because then the letter, `o`, will not be mistaken for the number `0`.
 
 
 
