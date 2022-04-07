@@ -4,7 +4,7 @@ date: 2022-02-19
 
 # Lab 00: Preparation for Molecular Dynamics
 
-*This article outlines the requirements you will need to begin using Jupyter notebooks and Google Colaboratory (Colab).*
+*This exercise prepares you for using Jupyter notebooks and Google Colaboratory (Colab).*
 
 ## Learning Objectives
 
@@ -58,7 +58,7 @@ You can also use the Firefox browser, but you must sign in to the correct Google
 
 Here is a quick summary of how you will access course materials. Additional detailed instructions can be found below the summary.
 
-1. Go to the [Molecular Dynamics GitHub repository](https://github.com/dgoppenheimer/Molecular-Dynamics) to access the Jupyter notebooks that contain the tutorials and assignments.
+1. Go to the [Molecular Dynamics GitHub repository](https://github.com/dgoppenheimer/Molecular-Dynamics) to access the Jupyter notebooks that contain the tutorials and assignments. <mark>You only need to do this once for each assigment.</mark>
 2. Choose the assignment you want to work on and click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) button. The notebook will open in your (Chrome) web browser.
 3. Change accounts to your `<last name><first initial>.mdynamics@gmail.com` account.
 4. Connect to a runtime and mount your G-drive.
@@ -118,14 +118,17 @@ Once your notebook is renamed, save a copy to your G-drive.
 
 ---
 
-## Code for Images in Jupyter Notebooks
+## Adding Images to Text Cells in Jupyter Notebooks
 
-I use Hugo shortcodes for processing images on this site to keep the markdown clean. The images are stored in `page bundles` for use on this site. I also uploaded all the images to a public GitHub repository, [notebook-images](https://github.com/dgoppenheimer/notebook-images), so I can use them with the Jupyter notebooks. Using a public repository ensures that the images will still be available when the notebook is shared.
+I uploaded all the images to a public GitHub repository, [notebook-images](https://github.com/dgoppenheimer/notebook-images), so I can use them on this site with the course Jupyter notebooks. Using a public repository ensures that the images will still be available when the notebook is shared.
 
-Here is the code I used to generate the images in the Jupyter notebooks. This code is a bit different from standard Markdown in that it allows the images to be resized rather than just filling the container.
+Here is the code I used to generate the images in the Jupyter notebooks. This code is a bit different from standard `Markdown` in that it allows the images to be resized rather than just filling the container.
 
-{{% alert title="Information" color="info" %}}
-Code for the Jupyter notebook:  
+!!! info 
+
+   Code for the Jupyter notebook:  
+   
+ 
 *Click profile*
 
 ```html
@@ -150,4 +153,4 @@ Code for the Jupyter notebook:
 [<img src="https://github.com/dgoppenheimer/notebook-images/blob/main/connected.png?raw=true" alt="connected" width="750" />](https://github.com/dgoppenheimer/notebook-images/blob/main/connected.png?raw=true)
 ```
 
-{{% /alert %}}
+
