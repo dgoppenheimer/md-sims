@@ -7,3 +7,12 @@ Workshop at the 35th Conference on Neural Information Processing Systems 2021
 
 
 
+Avoiding False Positive Conclusions in Molecular Simulation: The Importance of Replicas
+
+Bernhard Knapp, Luis Ospina, and Charlotte M. Deane
+Journal of Chemical Theory and Computation 2018 14 (12), 6127-6138
+DOI: 10.1021/acs.jctc.8b00391
+
+
+
+Bernhard Knapp*Bernhard Knapp
