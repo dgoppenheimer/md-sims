@@ -25,3 +25,31 @@ Here we will download the software from the GROMACS website.
 #Download GROMACS 2021.5
 !wget https://ftp.gromacs.org/gromacs/gromacs-2021.5.tar.gz
 ```
+
+## Install GROMACS
+
+Start a `bash` subshell to run several `bash` commands in the same code cell.
+
+```py
+%%bash
+# extracting the software
+tar xfz gromacs-2021.5.tar.gz
+echo "GROMACS extraction completed"
+```
+
+```py
+# create  and enter the build directory
+cd gromacs-2021.5
+mkdir build
+cd build
+```
+
+Check the `cmake` version.
+
+```py
+!cmake --version
+cmake version 3.12.0
+```
+
+
+
