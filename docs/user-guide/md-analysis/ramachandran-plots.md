@@ -23,7 +23,7 @@ $\mu$ is the mean of the population,
 $\sigma$ is the standard deviation of the population.
 
 
-So z is negative if the value "x" is less than the mean, and z is positive if the value is greater than the mean. If we define "outliers" as measurements that are greater than 4 standard deviations from the mean, then outliers are those measurements with $z\leq$ 4 or $z\geq$ 4.
+So z is negative if the value "x" is less than the mean, and z is positive if the value is greater than the mean. If we define "outliers" as measurements that are greater than 4 standard deviations from the mean, then outliers are those measurements with $z< -4$ or $z>4$.
 
 
 

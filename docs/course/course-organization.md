@@ -7,7 +7,11 @@ description: >
 
 ## Introduction
 
-### Learning Objectives
+### Course Learning Goals
+
+!!! info
+
+    Each lab will have a set of specific learning outcomes (learning objectives) that will be listed at the beginning of the lab.
 
 ## Course Summary
 
@@ -87,10 +91,6 @@ description: >
 
 - Part 4. Example Publications
 
-
-
-
-
 ## Additional Resources
 
 See this course from the summer of 2021, [CHEM 181 Introduction to Molecular Simulation](http://copresearch.pacific.edu/mmccallum/181/index.html).
@@ -127,7 +127,6 @@ See [Structure validation practical - answers](https://www.ebi.ac.uk/pdbe/modval
 
 [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
 
-
 Open Lab.01 IBM 3202  
 for preparing protein structure (`pdb`) files with `grep`  
 
@@ -137,5 +136,7 @@ also look at the Cancer Biology PyMOL docking project for multiple examples of `
 
     get `.pdb` file &#8594; ? &#8594; profit!
 
+## Integration with Canvas
 
+See the [IllumiDesk site](https://www.illumidesk.com/) for information.
 
