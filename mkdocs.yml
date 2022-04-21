@@ -188,8 +188,8 @@ nav:
     - reference/color-by-rmsd.md
     - reference/example-articles.md
     - reference/useful-references.md
-    - reference/using-grep.md
-    - PDB Files:  reference/pdb-file-manipulation.md
+    - reference/unix-tools.md
+    - PDB Files:  reference/working-with-pdb-files.md
   - Course: 
     - course/index.md
     - Course Organization: course/course-organization.md

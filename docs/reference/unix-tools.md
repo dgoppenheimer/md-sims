@@ -1,13 +1,10 @@
-# Using `grep`
+# Unix Tools
 
-*Global regular expression print* know by its moniker, `grep` is a unix tool used for searching plain-text files for lines that contain a pattern and printing the result.
+## Using `grep`
 
-```bash
+*Global regular expression print* know by its moniker, `grep`, is a unix tool used for searching plain-text files for lines that contain a pattern and printing the result.
 
-```
-
-
-`grep -v` 
+`grep -v`
 
 prints only the lines that don't match the search pattern.
 

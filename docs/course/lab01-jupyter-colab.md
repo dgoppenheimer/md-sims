@@ -4,9 +4,7 @@ date: 2022-01-28
 
 # Lab 01: Introduction to Jupyter notebooks and Colab
 
-*In this exercise you will learn the basic features of Jupyter notebooks and Google Colaboratory (Colab).*
-
-[<img  width="50" src="https://drive.google.com/uc?export=view&id=1-JE5lbCK4Amelom8clmAyXUOAoyHhfiq" alt="Colaboratory logo" align="left" hspace="10" vspace="30" /> ](https://drive.google.com/uc?export=view&id=1-JE5lbCK4Amelom8clmAyXUOAoyHhfig)
+[<img width="50" src="https://drive.google.com/uc?export=view&id=1-JE5lbCK4Amelom8clmAyXUOAoyHhfiq" alt="Colaboratory logo" align="left" hspace="10px" />](https://drive.google.com/uc?export=view&id=1-JE5lbCK4Amelom8clmAyXUOAoyHhfig) *In this exercise you will learn the basic features of Jupyter notebooks and Google Colaboratory (Colab).*
 
 ## Learning Objectives
 
@@ -17,7 +15,6 @@ By the end of this exercise, you will be able to do the following:
 - Use `markdown` to format text
 - Save a notebook to Google Drive.
 
- 
 ## Welcome to Google Colaboratory!
 
 *In this exercise you will learn about Jupyter notebooks and Google Colaboratory (Colab).*
