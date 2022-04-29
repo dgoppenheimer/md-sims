@@ -13,6 +13,8 @@ description: >
 
     Each lab will have a set of specific learning outcomes (learning objectives) that will be listed at the beginning of the lab.
 
+### Course Learning Outcomes (Learning Objectives)
+
 ## Course Summary
 
 | Part   | Lab      | Topic                               | Date |
@@ -139,4 +141,8 @@ also look at the Cancer Biology PyMOL docking project for multiple examples of `
 ## Integration with Canvas
 
 See the [IllumiDesk site](https://www.illumidesk.com/) for information.
+
+## Course Notes
+
+Start with GROMACS and OpenMM. Add Amber and NAMD later.
 

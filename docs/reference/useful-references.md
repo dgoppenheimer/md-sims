@@ -3,8 +3,6 @@
 [Machine Learning in Structural Biology](https://www.mlsb.io/#:~:text=Machine%20learning%20also%20shows%20great,learning%20with%20experimental%20structure%20determination.)  
 Workshop at the 35th Conference on Neural Information Processing Systems 2021
 
-
-
 Ron O. Dror, Robert M. Dirks, J.P. Grossman, Huafeng Xu, and David E. Shaw. "Biomolecular Simulation: A Computational Microscope for Molecular Biology." Annual Review of Biophysics, 41:429-452, 2012. https://doi.org/10.1146/annurev-biophys-042910-155245
  
 Avoiding False Positive Conclusions in Molecular Simulation: The Importance of Replicas
@@ -37,6 +35,10 @@ Good introductory questions for PDB files can be found at the [Biomolecular Stru
 
 [Running Molecular Dynamics with Amber on Compute Canada](https://computecanada.github.io/molmodsim-amber-md-lesson/aio/index.html)
 
+[T019 · Molecular dynamics simulation](https://colab.research.google.com/github/volkamerlab/teachopencadd/blob/1bd7cb0c9f6379aebc0c1a0b1c7413685910cffa/teachopencadd/talktorials/019_md_simulation/talktorial.ipynb) Here the authors use OpenMM to simulate a protein-ligand complex. Also a nice introduction to the theory behind molecular dynamics simulations. There are some nice quiz questions and short activities here, too.
+
+[Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching) and [Lecture 7: Molecular Dynamics Simulations in Python](https://github.com/klyshko/md_python/blob/master/Lecture.ipynb) both have a nice introduction to the theory behind the simulations. I may not go into this much detail as my current math skills are not up to it.
+
 ## Websites
 
 [MolProbity](http://molprobity.biochem.duke.edu/index.php?MolProbSID=1mivhrsmc6ajmk6g8a9i6gskl1&eventID=36)  
@@ -65,8 +67,25 @@ This page shows an excellent flowchart and outline of the steps necessary for pr
 
 [PDBe Tutorials](https://www.ebi.ac.uk/pdbe/training/tutorials)  
 
-## Test Mermaid Diagram
+## Readings
 
+Hollingsworth SA & Dror RO (2018) Molecular Dynamics Simulation for All. *Neuron* **99**: 1129-1143. DOI: [10.1016/j.neuron.2018.08.011](https://doi.org/10.1016/j.neuron.2018.08.011)
+
+Chen YC (2015) Beware of docking. *Trends Pharmacol Sci* **36**: 78-95. [DOI: 10.1016/j.tips.2014.12.001](https://doi.org/10.1016/j.tips.2014.12.001)
+
+**Important** Gapsys V & de Groot BL (2020) On the importance of statistics in molecular simulations for thermodynamics, kinetics and simulation box size. *Elife* **9**: e57589. [DOI: 10.7554/eLife.57589](https://doi.org/10.7554/eLife.57589)
+
+Yu H & Dalby PA (2020) A beginner’s guide to molecular dynamics simulations and the identification of cross-correlation networks for enzyme engineering. *Methods Enzymol* **643**: 15-49.[DOI: 10.1016/bs.mie.2020.04.020](https://doi.org/10.1016/bs.mie.2020.04.020). This article includes a GROMACS tutorial.
+
+Hildebrand PW, Rose AS & Tiemann JKS (2019) Bringing Molecular Dynamics Simulation Data into View. *Trends Biochem Sci* **44**: 902-913. DOI: [10.1016/j.tibs.2019.06.004](https://doi.org/10.1016/j.tibs.2019.06.004)
+
+**Important** Bruzzese A, Dalton JAR & Giraldo J (2020) Statistics for the analysis of molecular dynamics simulations: providing P values for agonist-dependent GPCR activation. Sci Rep 10: 19942. DOI: [10.1038/s41598-020-77072-4](https://doi.org/10.1038/s41598-020-77072-4)
+
+Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Identifying Key Residues for Allosteric Communication in Proteins by correlationplus. *J Chem Inf Model* **61**: 4832-4838. DOI: [10.1021/acs.jcim.1c00742](https://doi.org/10.1021/acs.jcim.1c00742) This is a useful python package to carry out and visualize pairwise correlations in molecular dynamics trajectories.
+
+Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
+
+## Test Mermaid Diagram
 
 ``` mermaid
 graph LR
@@ -75,4 +94,16 @@ graph LR
   C --> D[Debug];
   D --> B;
   B ---->|No| E[Yay!];
+```
+
+This flowchart was adapted from [Information flow in AMBER](https://computecanada.github.io/molmodsim-amber-md-lesson/aio/index.html)
+
+``` mermaid
+graph TD
+    A(PDB files)  -->|<font size=2>atom coordinates| B{tLEaP};
+    C("Force Field (ff) files") -->|<font size=2>ff parameters| B{tLEaP};
+    D(LEaP commands) -->|<font size=2>build system| B{tLEaP};
+
+
+
 ```

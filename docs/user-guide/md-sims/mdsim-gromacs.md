@@ -15,24 +15,14 @@ First, let's confirm that we are in the correct directory.
 /content
 ```
 
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## Resources
 
 - [Interactive Molecular Dynamics with GROMACS](https://www.mpinat.mpg.de/grubmueller/interactivemd): This runs within VMD.
 - [Managing long simulations](https://manual.gromacs.org/documentation/current/user-guide/managing-simulations.html): There is a good section on reproducibility, which should be presented in class.
-
-
+- [Molecular Dynamics Simulation using Google Colab](https://github.com/TheBiomics/Molecular-Dynamics) This builds GROMACS/NAMD on Colab.
+- [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching) This has a nice tutorial on Newton's Laws of Motion, and nice python exercises to illustrate them.
 
 ## Trp-cage
 
