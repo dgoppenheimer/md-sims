@@ -112,7 +112,6 @@ The course is set up for 5 weeks.
 
 - [VS Code](https://code.visualstudio.com/)
 - [VS Code on the web](https://vscode.dev/)
-
 - [BBEdit](https://www.barebones.com/products/bbedit/)
 
 #### Graphing with Plotly
@@ -128,6 +127,13 @@ See [Structure validation practical - answers](https://www.ebi.ac.uk/pdbe/modval
 ## Other Courses
 
 [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching)
+[Molecular Modeling Practical](http://cgmartini.nl/~mdcourse/pepmd/analysis.html)
+
+## Docking
+
+Use the webserver below to see if your identified ligand will be modified by a human cytochrome p450.
+
+[https://doi.org/10.1021/acs.jcim.1c00144](https://doi.org/10.1021/acs.jcim.1c00144)
 
 Open Lab.01 IBM 3202  
 for preparing protein structure (`pdb`) files with `grep`  
@@ -145,4 +151,26 @@ See the [IllumiDesk site](https://www.illumidesk.com/) for information.
 ## Course Notes
 
 Start with GROMACS and OpenMM. Add Amber and NAMD later.
+
+## CUR Possibilities
+
+Use AlphaFold2 and/or I-TASSER to model structures from metagenomes (ocean, human microbiome). Use MD simulations as part of validation.
+
+See ResearchGate: [Is it necessary to run molecular dynamic simulation after modelling of unknown protein structure?](https://www.researchgate.net/post/Is_it_necessary_to_run_molecular_dynamic_simulation_after_modelling_of_unknown_protein_structure)
+
+Structure Refinement
+
+:   GOAP, ModRefine, GalaxyRefine
+
+assess the reliability of predicted model
+
+:   RAMA plots, ProTSAV, SAVES, Molprobity
+
+MD Simulations
+
+:   Stability of protein structure, and RMSD
+
+See [Assessment of ab initio models of protein complexes by molec...](https://www.pnas.org/content/102/19/6679)
+
+Citation: Cheung NJ, Yu W (2018) De novo protein structure prediction using ultra-fast molecular dynamics simulation. PLoS ONE 13(11): e0205819. https://doi.org/10.1371/journal.pone.0205819
 

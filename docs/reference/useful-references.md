@@ -39,6 +39,17 @@ Good introductory questions for PDB files can be found at the [Biomolecular Stru
 
 [Molecular Dynamics simulations in Python](https://klyshko.github.io/teaching/2019-03-01-teaching) and [Lecture 7: Molecular Dynamics Simulations in Python](https://github.com/klyshko/md_python/blob/master/Lecture.ipynb) both have a nice introduction to the theory behind the simulations. I may not go into this much detail as my current math skills are not up to it.
 
+[QM/MM with GROMACS + CP2K](https://www.archer2.ac.uk/training/courses/220000-gromacs-self-service/)  
+One in a series of courses using the Archer2 computing resources in the UK. Learning Outcomes, prerequisites, and requirements are listed. This is a self-service course that is always open.
+
+Also see [QM/MM simulation with GROMACS + CP2K](https://www.archer2.ac.uk/training/courses/210422-gromacs/)
+
+## Tutorials
+
+Here is a Jupyter Notebook in Colab [Tutorial: a simple simulation of alanine dipeptide with ANI-2x using OpenMM-Torch and NNPOps](https://colab.research.google.com/github/openmm/openmm-torch/blob/master/tutorials/openmm-torch-nnpops.ipynb)
+
+
+
 ## Websites
 
 [MolProbity](http://molprobity.biochem.duke.edu/index.php?MolProbSID=1mivhrsmc6ajmk6g8a9i6gskl1&eventID=36)  
@@ -50,12 +61,46 @@ To calculate Ramachandran Z-scores: [Tortoize](https://pdb-redo.eu/tortoize)
     To analyze the Z-scores of each frame of a trajectory, you need to download and run Tortoize locally. 
 
     [Tortoize GitHub repository](https://github.com/PDB-REDO/tortoize)  
-    Requirements:
         [libcif++](https://github.com/PDB-REDO/libcifpp)  
         [libzeep](https://github.com/mhekkel/libzeep)
 
 [Running a Simulation in Amber](https://computecanada.github.io/molmodsim-amber-md-lesson/aio/index.html)  
 This page shows an excellent flowchart and outline of the steps necessary for preparing the protein structure for simulation using AMBER. It also has a series of exercises that are useful for teaching.
+
+[CP2K Open Source Molecular Dynamics](https://www.cp2k.org/about)  
+>CP2K is a quantum chemistry and solid state physics software package that can perform atomistic simulations of solid state, liquid, molecular, periodic, material, crystal, and biological systems.
+
+[Computational Biology Services - Tutorials](https://www.computabio.com/tutorials.html)
+
+[OpenMM User Guide](http://docs.openmm.org/latest/userguide/application/01_getting_started.html)
+
+### ACEMD
+
+[ACEMD: Molecular Dynamics Made Simple](https://www.acellera.com/acemd/) and the accompanying PlayMolecule and HTMD.
+
+### PLUMED
+
+[Master ISDD tutorial 2020: Brief introduction to PLUMED](https://www.plumed.org/doc-v2.6/user-doc/html/master-_i_s_d_d-1.html)
+
+>It can be used to analyze features of the dynamics on-the-fly or to perform a wide variety of free energy methods.
+
+### NNPOps
+
+[NNPOps](https://github.com/openmm/NNPOps)
+
+Part of OpenMM
+
+>The goal of this project is to promote the use of neural network potentials (NNPs) by providing highly optimized, open source implementations of bottleneck operations that appear in popular potentials.
+>...
+>This code is designed for inference (running simulations)
+
+Jupyter Notebook tutorial:
+
+[Tutorial: a simple simulation of alanine dipeptide with ANI-2x using OpenMM-Torch and NNPOps](https://colab.research.google.com/github/openmm/openmm-torch/blob/master/tutorials/openmm-torch-nnpops.ipynb#scrollTo=oRr7FSA13_Wv)
+
+## Training your own models
+
+[Welcome to TorchANI’s documentation!](https://aiqm.github.io/torchani/)
 
 ## Integrating Jupyter Notebooks and Canvas
 
@@ -84,6 +129,8 @@ Hildebrand PW, Rose AS & Tiemann JKS (2019) Bringing Molecular Dynamics Simulati
 Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Identifying Key Residues for Allosteric Communication in Proteins by correlationplus. *J Chem Inf Model* **61**: 4832-4838. DOI: [10.1021/acs.jcim.1c00742](https://doi.org/10.1021/acs.jcim.1c00742) This is a useful python package to carry out and visualize pairwise correlations in molecular dynamics trajectories.
 
 Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
+
+[How to (not) perform a Molecular Dynamics simulation study](https://www.stats.ox.ac.uk/~knapp/paperVersionOfPost_2014.pdf) A good article showing why you should not base conclusions on single MD simulations
 
 ## Test Mermaid Diagram
 

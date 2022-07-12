@@ -178,6 +178,8 @@ nav:
       - Ramachandran Plots: user-guide/md-analysis/ramachandran-plots.md
       - MD Analysis with VMD: user-guide/md-analysis/analysis-vmd.md
       - user-guide/md-analysis/analysis-gromacs.md
+    - MD Sims:
+  
   - Reference: 
     - reference/ligplot.md
     - reference/ligpargen.md
