@@ -4,14 +4,8 @@
 Workshop at the 35th Conference on Neural Information Processing Systems 2021
 
 Ron O. Dror, Robert M. Dirks, J.P. Grossman, Huafeng Xu, and David E. Shaw. "Biomolecular Simulation: A Computational Microscope for Molecular Biology." Annual Review of Biophysics, 41:429-452, 2012. https://doi.org/10.1146/annurev-biophys-042910-155245
- 
-Avoiding False Positive Conclusions in Molecular Simulation: The Importance of Replicas
 
-Bernhard Knapp, Luis Ospina, and Charlotte M. Deane
-Journal of Chemical Theory and Computation 2018 14 (12), 6127-6138
-DOI: 10.1021/acs.jctc.8b00391
 
-Bernhard Knapp*Bernhard Knapp
 
 Sobolev OV, Afonine PV, Moriarty NW, Hekkelman ML, Joosten RP, Perrakis A et al. (2020) A Global Ramachandran Score Identifies Protein Structures with Unlikely Stereochemistry. Structure 28: 1249-1258.e2. [DOI: 10.1016/j.str.2020.08.005](https://doi.org/10.1016/j.str.2020.08.005)
 
@@ -118,19 +112,23 @@ Hollingsworth SA & Dror RO (2018) Molecular Dynamics Simulation for All. *Neuron
 
 Chen YC (2015) Beware of docking. *Trends Pharmacol Sci* **36**: 78-95. [DOI: 10.1016/j.tips.2014.12.001](https://doi.org/10.1016/j.tips.2014.12.001)
 
-**Important** Gapsys V & de Groot BL (2020) On the importance of statistics in molecular simulations for thermodynamics, kinetics and simulation box size. *Elife* **9**: e57589. [DOI: 10.7554/eLife.57589](https://doi.org/10.7554/eLife.57589)
+Gapsys V & de Groot BL (2020) On the importance of statistics in molecular simulations for thermodynamics, kinetics and simulation box size. *Elife* **9**: e57589. [DOI: 10.7554/eLife.57589](https://doi.org/10.7554/eLife.57589)
 
-Yu H & Dalby PA (2020) A beginner’s guide to molecular dynamics simulations and the identification of cross-correlation networks for enzyme engineering. *Methods Enzymol* **643**: 15-49.[DOI: 10.1016/bs.mie.2020.04.020](https://doi.org/10.1016/bs.mie.2020.04.020). This article includes a GROMACS tutorial.
+Knapp B, Ospina L & Deane CM (2018) Avoiding False Positive Conclusions in Molecular Simulation: The Importance of Replicas. *J Chem Theory Comput* **14**: 6127-6138. [DOI: 10.1021/acs.jctc.8b00391](https://doi.org/10.1021/acs.jctc.8b00391)
+
+[How to (not) perform a Molecular Dynamics simulation study](https://www.stats.ox.ac.uk/~knapp/paperVersionOfPost_2014.pdf) A good article showing why you should not base conclusions on single MD simulations.
+
+Bruzzese A, Dalton JAR & Giraldo J (2020) Statistics for the analysis of molecular dynamics simulations: providing P values for agonist-dependent GPCR activation. *Sci Rep* **10**: 19942. DOI: [10.1038/s41598-020-77072-4](https://doi.org/10.1038/s41598-020-77072-4)
+
+Yu H & Dalby PA (2020) A beginner’s guide to molecular dynamics simulations and the identification of cross-correlation networks for enzyme engineering. *Methods Enzymol* **643**: 15-49. [DOI: 10.1016/bs.mie.2020.04.020](https://doi.org/10.1016/bs.mie.2020.04.020). This article includes a GROMACS tutorial.
 
 Hildebrand PW, Rose AS & Tiemann JKS (2019) Bringing Molecular Dynamics Simulation Data into View. *Trends Biochem Sci* **44**: 902-913. DOI: [10.1016/j.tibs.2019.06.004](https://doi.org/10.1016/j.tibs.2019.06.004)
-
-**Important** Bruzzese A, Dalton JAR & Giraldo J (2020) Statistics for the analysis of molecular dynamics simulations: providing P values for agonist-dependent GPCR activation. Sci Rep 10: 19942. DOI: [10.1038/s41598-020-77072-4](https://doi.org/10.1038/s41598-020-77072-4)
 
 Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Identifying Key Residues for Allosteric Communication in Proteins by correlationplus. *J Chem Inf Model* **61**: 4832-4838. DOI: [10.1021/acs.jcim.1c00742](https://doi.org/10.1021/acs.jcim.1c00742) This is a useful python package to carry out and visualize pairwise correlations in molecular dynamics trajectories.
 
 Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
 
-[How to (not) perform a Molecular Dynamics simulation study](https://www.stats.ox.ac.uk/~knapp/paperVersionOfPost_2014.pdf) A good article showing why you should not base conclusions on single MD simulations
+
 
 ## Test Mermaid Diagram
 

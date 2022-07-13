@@ -6,8 +6,8 @@ title: Building This Site
 pip install mkdocs-material
 
 cd ~/Sites
-mkdir mk-test
-cd mk-test
+mkdir md-sims
+cd md-sims
 mkdocs new .
 
 ```
@@ -54,12 +54,12 @@ git commit -m "initial commit"
 Create a new repository on GitHub. Then do the following:
 
 ```bash
-git remote add origin https://github.com/dgoppenheimer/mk-test.git
+git remote add origin https://github.com/dgoppenheimer/md-sims.git
 git branch -M main
 git push -u origin main
 ```
 
-Go to `https://github.com/dgoppenheimer/mk-test/settings/pages`
+Go to `https://github.com/dgoppenheimer/md-sims/settings/pages`
 
 Choose `gh-pages` branch and click `Save`.
 
@@ -67,9 +67,9 @@ Add some text to `index.md`
 
 Save, commit and `git push`
 
-go to `https://github.com/dgoppenheimer/mk-test/actions` and watch the site being built.
+go to `https://github.com/dgoppenheimer/md-sims/actions` and watch the site being built.
 
-Check the site at `https://dgoppenheimer.github.io/mk-test/`
+Check the site at `https://dgoppenheimer.github.io/md-sims/`
 
 Add to mkdocs.yml
 
@@ -133,7 +133,7 @@ mkdocs gh-deploy --force
 ```
 
 - Add the `site/` directory to `.gitignore`.
-- Check the site at [https://dgoppenheimer.github.io/mk-test/](https://dgoppenheimer.github.io/mk-test/).
+- Check the site at [https://dgoppenheimer.github.io/md-sims/](https://dgoppenheimer.github.io/md-sims/).
 
 !!! success
 
@@ -348,7 +348,7 @@ Test the site on GitHub.
 
 No joy.
 
-Add `site_url: https://dgoppenheimer.github.io/mk-test/` to `mkdocs.yml`.
+Add `site_url: https://dgoppenheimer.github.io/md-sims/` to `mkdocs.yml`.
 
 !!! success
 
