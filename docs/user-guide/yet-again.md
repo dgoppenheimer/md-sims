@@ -71,7 +71,7 @@ See copy of file in repository.
 
 Commit local changes and push to origin.
 
-Go to GitHub Settings Pages Source and change source to `gh-pages` (already done)
+Go to *GitHub* &#x2192; [repository] &#x2192; *Settings* &#x2192; *Pages* &#x2192; *Source* and change source to `gh-pages` (already done)
 
 make a change and push again.
 
