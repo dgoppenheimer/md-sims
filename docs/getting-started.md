@@ -50,10 +50,10 @@ Material for MkDocs can be installed with `pip`:
         pip install -r requirements.txt
         ```
 
-    [^1]:
-      Note that improvements of existing features are sometimes released as
-      patch releases, like for example improved rendering of content tabs, as
-      they're not considered to be new features.
+      [^1]:
+        Note that improvements of existing features are sometimes released as
+        patch releases, like for example improved rendering of content tabs, as
+        they're not considered to be new features.
 
 This will automatically install compatible versions of all dependencies:
 [MkDocs], [Markdown], [Pygments] and [Python Markdown Extensions]. Material for
