@@ -1,8 +1,6 @@
----
-title: Conda on Colab
-date: 2022-02-05
-description: A quick guide to installing Conda on Google Colab
----
+# Conda on Colab
+
+A quick guide to installing Conda on Google Colab
 
 Some packages recommend using `conda` for installation on Google Colab. Here is a quick guide to doing so.
 

@@ -40,20 +40,20 @@ Material for MkDocs can be installed with `pip`:
         your site. Additionally, you can use `pip freeze` to create a lockfile,
         so builds are reproducible at all times:
 
-        ```
+        ```zsh
         pip freeze > requirements.txt
         ```
 
         Now, the lockfile can be used for installation:
 
-        ```
+        ```zsh
         pip install -r requirements.txt
         ```
 
-  [^1]:
-    Note that improvements of existing features are sometimes released as
-    patch releases, like for example improved rendering of content tabs, as
-    they're not considered to be new features.
+    [^1]:
+      Note that improvements of existing features are sometimes released as
+      patch releases, like for example improved rendering of content tabs, as
+      they're not considered to be new features.
 
 This will automatically install compatible versions of all dependencies:
 [MkDocs], [Markdown], [Pygments] and [Python Markdown Extensions]. Material for
@@ -73,13 +73,13 @@ minutes, as it comes with all dependencies pre-installed. Pull the image for the
 
 === "Latest"
 
-    ```
+    ```zsh
     docker pull squidfunk/mkdocs-material
     ```
 
 === "8.x"
 
-    ```
+    ```zsh
     docker pull squidfunk/mkdocs-material:8
     ```
 
@@ -109,7 +109,7 @@ The following plugins are bundled with the Docker image:
 
     Next, you can build the image with the following command:
 
-    ```
+    ```zsh
     docker build -t squidfunk/mkdocs-material .
     ```
 
@@ -122,7 +122,7 @@ The following plugins are bundled with the Docker image:
     via Docker on `arm64` or `armv7`, as it is automatically built on every
     release:
 
-    ```
+    ```zsh
     docker pull ghcr.io/afritzler/mkdocs-material
     ```
 
@@ -134,15 +134,15 @@ Material for MkDocs can be directly used from [GitHub] by cloning the
 repository into a subfolder of your project root which might be useful if you
 want to use the very latest version:
 
-```
+```zsh
 git clone https://github.com/squidfunk/mkdocs-material.git
 ```
 
 The theme will reside in the folder `mkdocs-material/material`. When cloning
 from `git`, you must install all required dependencies yourself:
 
-```
+```zsh
 pip install -e mkdocs-material
 ```
 
-  [GitHub]: https://github.com/squidfunk/mkdocs-material
+[GitHub]: https://github.com/squidfunk/mkdocs-material
