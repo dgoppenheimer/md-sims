@@ -2,7 +2,7 @@
 template: overrides/main.html
 ---
 
-# License for [**Material for MkDocs**](https://squidfunk.github.io/mkdocs-material/)
+# License for [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 **MIT License**
 
