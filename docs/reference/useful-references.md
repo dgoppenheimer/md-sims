@@ -5,8 +5,6 @@ Workshop at the 35th Conference on Neural Information Processing Systems 2021
 
 Ron O. Dror, Robert M. Dirks, J.P. Grossman, Huafeng Xu, and David E. Shaw. "Biomolecular Simulation: A Computational Microscope for Molecular Biology." Annual Review of Biophysics, 41:429-452, 2012. https://doi.org/10.1146/annurev-biophys-042910-155245
 
-
-
 Sobolev OV, Afonine PV, Moriarty NW, Hekkelman ML, Joosten RP, Perrakis A et al. (2020) A Global Ramachandran Score Identifies Protein Structures with Unlikely Stereochemistry. Structure 28: 1249-1258.e2. [DOI: 10.1016/j.str.2020.08.005](https://doi.org/10.1016/j.str.2020.08.005)
 
 ## Online Courses
@@ -127,6 +125,8 @@ Hildebrand PW, Rose AS & Tiemann JKS (2019) Bringing Molecular Dynamics Simulati
 Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Identifying Key Residues for Allosteric Communication in Proteins by correlationplus. *J Chem Inf Model* **61**: 4832-4838. DOI: [10.1021/acs.jcim.1c00742](https://doi.org/10.1021/acs.jcim.1c00742) This is a useful python package to carry out and visualize pairwise correlations in molecular dynamics trajectories.
 
 Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
+
+Metehan Ilter, Ramazan Kasmer, Farzaneh Jalalypour, Canan Atilgan, Ozan Topcu, Nihal Karakas, Ozge Sensoy (2022) Inhibition of mutant RAS-RAF interaction by mimicking structural and dynamic properties of phosphorylated RAS eLife 11:e79747 [https://doi.org/10.7554/eLife.79747](https://elifesciences.org/articles/79747)
 
 
 

@@ -58,4 +58,4 @@ The Protopedia webpage on [Hydrogen in macromolecular models](https://proteopedi
 
 [Atomic Coordinate Entry Format Version 3.3](https://www.wwpdb.org/documentation/file-format-content/format33/sect9.html) from the World Wide Protein Data Bank website. This has an excellent explanation of the format of `.pdb` files.
 
-Also see [Atomic Coordinate Entry Format Version 3.3](https://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html)
+Also see [Atomic Coordinate Entry Format Version 3.3](https://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html)color pink, resid 59-63

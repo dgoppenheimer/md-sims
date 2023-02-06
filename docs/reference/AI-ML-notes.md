@@ -47,3 +47,6 @@ identify surface pockets
 
 [Google Colab for Machine Learning Projects](https://machinelearningmastery.com/google-colab-for-machine-learning-projects/) This includes a nice introduction to Google Colab. There is also a description of what you need to do to save your partially trained model from the random Colab shutdowns--saving checkpoint files to mounted google drive.
 
+
+
+
