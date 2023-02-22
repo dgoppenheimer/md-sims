@@ -32,7 +32,7 @@ ATOM      2  CA  LEU A 125       6.228 -10.948  -0.052  1.00  0.00           C
 
     Each model is preceded by a line that designates the model number (`MODEL 1`, `MODEL 2`, and so on) and ends with the line `ENDMDL`. We can use these as starting and stopping patterns for each model that we want to extract from this file.
 
-*Regex*, which is short for *Regular Expressions*[^1] is used for search and replace of characters in certain text files (but cannot be used for `html` files--see [Stackoverflow](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)). In our case we want to extract the text between the patterns `MODEL 1` and `ENDMDL` (including the patterns) into a new file. I got the code, below, from [Stackoverflow](https://stackoverflow.com/questions/4857424/extract-lines-between-2-tokens-in-a-text-file-using-bash), but had to modify it for using `sed` on Mac OSX (you need the `-E` option).
+*Regex*, which is short for *Regular Expressions*[^1] is used for search and replace of characters in certain text files (but generally should not be used for `html` files--see [Stackoverflow](https://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454)). In our case we want to extract the text between the patterns `MODEL 1` and `ENDMDL` (including the patterns) into a new file. I got the code, below, from [Stackoverflow](https://stackoverflow.com/questions/4857424/extract-lines-between-2-tokens-in-a-text-file-using-bash), but had to modify it for using `sed` on Mac OSX (you need the `-E` option).
 
 ```bash
 # Here is the sed command
