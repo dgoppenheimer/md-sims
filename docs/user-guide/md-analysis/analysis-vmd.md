@@ -320,7 +320,7 @@ Search for `RESI` and replace with `resname`.
 Search for `\n` and replace with `<spcae>` or `<space>`.  
 Clean up the beginning and end of selection, and delete the TIP3 (water).
 
- ```bash
+```bash
 resname AGLC or resname BGLC or resname AALT or resname BALT or resname AALL or resname BALL or resname AGAL or resname BGAL or resname AGUL or resname BGUL or resname AIDO or resname BIDO or resname AMAN or resname BMAN or resname ATAL or resname BTAL or resname AXYL or resname BXYL or resname AFUC or resname BFUC or resname ARHM or resname BRHM or resname AGLCA or resname BGLCA or resname BGLCA0 or resname AIDOA or resname BIDOA or resname AGLCNA or resname BGLCNA or resname BGLCN0 or resname AGALNA or resname BGALNA or resname ANE5AC or resname BNE5AC or resname ABEQ or resname ARHMOA or resname MGLYOL or resname MERYOL or resname DTHROL or resname LTHROL or resname MRIBOL or resname DARAOL or resname LARAOL or resname MXYLOL or resname MALLOL or resname DALTOL or resname LALTOL or resname DGLUOL or resname LGLUOL or resname DMANOL or resname LMANOL or resname DGULOL or resname LGULOL or resname DIDIOL or resname LIDIOL or resname MGALOL or resname ALLOSE or resname PSICOS or resname INI1 or resname INI2 or resname INI3 or resname INI4 or resname INI5 or resname ADEO or resname BDEO or resname ARIB or resname BRIB or resname AARB or resname BARB or resname ALYF or resname BLYF or resname AXYF or resname BXYF or resname AFRU or resname BFRU
 ```
 

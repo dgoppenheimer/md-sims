@@ -6,7 +6,7 @@ tags:
 
 # More `.pdb` file manipulation
 
-Some `pdb` files from the RCSB database contain more than one model. Structures solved by NMR often have multiple structure models--20 is common. To extract a single model for docking or MD simulations, you can always open the file in PyMOL or VMD and save a single model as a new file. But we can also do this easily using `grep`, `awk`, or `sed`. Here we will use the __s__tream __ed__itor, `sed`, because `grep` is designed for use on lines of text and we want to collect a block of text.
+Some `pdb` files from the RCSB database contain more than one model. Structures solved by NMR often have multiple structure models--20 is common. To extract a single model for docking or MD simulations, you can always open the file in PyMOL or VMD and save a single model as a new file. But we can also do this easily using `grep`, `awk`, or `sed`. Here we will use the <u><b>s</b></u>tream <u><b>ed</b></u>itor, `sed`, because `grep` is designed for use on lines of text and we want to collect a block of text.
 
 !!! info
 

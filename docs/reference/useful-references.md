@@ -126,9 +126,7 @@ Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Ide
 
 Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
 
-Metehan Ilter, Ramazan Kasmer, Farzaneh Jalalypour, Canan Atilgan, Ozan Topcu, Nihal Karakas, Ozge Sensoy (2022) Inhibition of mutant RAS-RAF interaction by mimicking structural and dynamic properties of phosphorylated RAS eLife 11:e79747 [https://doi.org/10.7554/eLife.79747](https://elifesciences.org/articles/79747)
-
-
+Metehan Ilter, Ramazan Kasmer, Farzaneh Jalalypour, Canan Atilgan, Ozan Topcu, Nihal Karakas, Ozge Sensoy (2022) Inhibition of mutant RAS-RAF interaction by mimicking structural and dynamic properties of phosphorylated RAS eLife 11:e79747 [https://doi.org/10.7554/eLife.79747](https://elifesciences.org/articles/79747). This may be a good required reading for the course.
 
 ## Test Mermaid Diagram
 
@@ -145,10 +143,8 @@ This flowchart was adapted from [Information flow in AMBER](https://computecanad
 
 ``` mermaid
 graph TD
-    A(PDB files)  -->|<font size=2>atom coordinates| B{tLEaP};
-    C("Force Field (ff) files") -->|<font size=2>ff parameters| B{tLEaP};
-    D(LEaP commands) -->|<font size=2>build system| B{tLEaP};
-
-
+    A(PDB files)  -->|atom coordinates| B{tLEaP};
+    C("Force Field (ff) files") -->|ff parameters| B{tLEaP};
+    D(LEaP commands) -->|build system| B{tLEaP};
 
 ```
