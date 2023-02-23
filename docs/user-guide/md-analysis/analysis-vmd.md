@@ -340,9 +340,10 @@ atomselect macro lipid2 {
 
 There is already a built-in macro for lipid/lipids and for glycans. (So I don't need to make my own macros) for this.
 
+```py
 mol modselect 3 0 glycan 
 mol modcolor 3 0 ResType
-
+```
 
 ## Resources
 
