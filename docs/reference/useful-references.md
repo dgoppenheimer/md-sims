@@ -126,7 +126,9 @@ Tekpinar M, Neron B & Delarue M (2021) Extracting Dynamical Correlations and Ide
 
 Sheik Amamuddy O, Veldman W, Manyumwa C, Khairallah A, Agajanian S, Oluyemi O et al. (2020) Integrated Computational Approaches and Tools for Allosteric Drug Discovery. *Int J Mol Sci* **21**: E847. DOI: [10.3390/ijms21030847](https://doi.org/10.3390/ijms21030847)
 
-Metehan Ilter, Ramazan Kasmer, Farzaneh Jalalypour, Canan Atilgan, Ozan Topcu, Nihal Karakas, Ozge Sensoy (2022) Inhibition of mutant RAS-RAF interaction by mimicking structural and dynamic properties of phosphorylated RAS eLife 11:e79747 [https://doi.org/10.7554/eLife.79747](https://elifesciences.org/articles/79747). This may be a good required reading for the course.
+Metehan Ilter, Ramazan Kasmer, Farzaneh Jalalypour, Canan Atilgan, Ozan Topcu, Nihal Karakas, Ozge Sensoy (2022) Inhibition of mutant RAS-RAF interaction by mimicking structural and dynamic properties of phosphorylated RAS eLife 11:e79747 DOI: [10.7554/eLife.79747](https://elifesciences.org/articles/79747). This may be a good required reading for the course.
+
+Sunseri J & Koes DR (2021) Virtual Screening with Gnina 1.0. Molecules 26: 7369. DOI: [10.3390/molecules26237369](https://doi.org/10.3390/molecules26237369)
 
 ## Test Mermaid Diagram
 

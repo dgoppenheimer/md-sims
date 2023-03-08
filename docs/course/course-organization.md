@@ -174,3 +174,19 @@ See [Assessment of ab initio models of protein complexes by molec...](https://ww
 
 Citation: Cheung NJ, Yu W (2018) De novo protein structure prediction using ultra-fast molecular dynamics simulation. PLoS ONE 13(11): e0205819. https://doi.org/10.1371/journal.pone.0205819
 
+### Other Notes
+
+Use [Alphafold 2.0](https://alphafold.ebi.ac.uk/) to get the 3D structure of your protein of interest (whether or not the structure has been solved by other means).
+
+Use the [PASSer 2.0 server](https://passer.smu.edu/) to locate potential allosteric sites for docking.
+
+Dock subsets of the Zinc chemical database using [Gnina](https://github.com/gnina/gnina).
+
+Use MTiOpenScreen instead
+
+Validate the docking using molecular dynamics simulations.
+
+Analyze simulations with and without inhibitor.
+
+AI in Drug Discovery
+
