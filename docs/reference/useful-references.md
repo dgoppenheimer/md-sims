@@ -148,5 +148,4 @@ graph TD
     A(PDB files)  -->|atom coordinates| B{tLEaP};
     C("Force Field (ff) files") -->|ff parameters| B{tLEaP};
     D(LEaP commands) -->|build system| B{tLEaP};
-
 ```
