@@ -541,7 +541,7 @@ Fix with:
 pip install markdown_captions
 ```
 
-
+Add ` - run: pip install markdown_captions` to `ci.yml`
 
 
 ![image caption](https://github.com/dgoppenheimer/notebook-images/blob/main/g-create.png?raw=true){: style="height:150px;width:150px"}
