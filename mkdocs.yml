@@ -34,7 +34,7 @@ repo_url: https://github.com/dgoppenheimer/md-sims
 edit_uri: ""
 
 # Copyright
-copyright: Copyright &copy; 2022 David G Oppenheimer
+copyright: Copyright &copy; 2022-2023 David G Oppenheimer
 
 #================================================================#
 # Mkdocs Theme (Material Mkdocs) + Extras
@@ -116,6 +116,7 @@ markdown_extensions:
   - footnotes
   - meta
   - md_in_html
+  - markdown_captions
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -164,8 +165,8 @@ extra_javascript:
 nav:
   - Home: index.md
   - Getting started:
-    - Installation: getting-started.md
-    - License: license.md
+    - Installation: installation.md
+    - License: material-license.md
   - User Guide:
     - Introduction: user-guide/introduction.md
     - Building This Site: user-guide/building-this-site.md

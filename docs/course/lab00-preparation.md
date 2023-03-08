@@ -30,6 +30,8 @@ This will allow you to save your notebooks to a dedicated Google Drive that does
 Click profile
 {{< /imgproc >}}
 
+![Google account profile](images/lab00/g-account-profile.png)
+
 {{< imgproc add-account.png Resize "350x" >}}
 Add another account
 {{< /imgproc >}}

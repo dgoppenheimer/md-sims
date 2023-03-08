@@ -84,7 +84,7 @@ markdown_extensions:
 
 Create a directory and a file
 
-```
+```zsh
 cd docs
 mkdir user-guide
 ```
@@ -193,7 +193,7 @@ Create a `gh-pages.yml` file with the contents listed below and put it into the 
 
 I got this `gh-pages.yml` file from [peaceiris' action-gh-pages GitHub repository](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-static-site-generators-with-python)
 
-Contents of the `gh-pages.yml` file:
+Example Contents of the `gh-pages.yml` file:
 
 ```yaml
 name: GitHub Pages
@@ -206,14 +206,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v3
         with:
           python-version: '3.8'
 
@@ -224,10 +226,10 @@ jobs:
 
       - name: Get pip cache dir
         id: pip-cache
-        run: echo "::set-output name=dir::$(pip cache dir)"
+        run: echo "dir=$(pip cache dir)" >> $GITHUB_OUTPUT
 
       - name: Cache dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ${{ steps.pip-cache.outputs.dir }}
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -246,8 +248,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 ```
-
-
 
 ## Customizing the Site
 
@@ -526,6 +526,24 @@ markdown_extensions:
   - markdown_captions
 ```
 
+I got an error building the site:
+
+```zsh
+ERROR    -  Config value 'markdown_extensions': Failed to load extension
+            'markdown_captions'.
+            ModuleNotFoundError: No module named 'markdown_captions'
+Aborted with 1 Configuration Errors!
+```
+
+Fix with:
+
+```zsh
+pip install markdown_captions
+```
+
+
+
+
 ![image caption](https://github.com/dgoppenheimer/notebook-images/blob/main/g-create.png?raw=true){: style="height:150px;width:150px"}
 
 Herp derpsum merpus ler derperker herpderpsmer. Pee sherper dee serp. Merpus re se ter derpsum me sherper herpler. Cerp herp derpy herpderpsmer tee. Herpem de mer, zerpus derpler sherpus der herpderpsmer ner. Merpus nerpy sherlamer derp! Me der berps, derp sherlamer. Ner derpsum se derpler nerpy. Derperker se derpus perper sherper. Re nerpy de derps ter. Herpderpsmer ler derpy ner pee derpsum herpem, cerp berp? Serp er zerpus merp berps terpus derperker cerp ler derp? Sherlamer derpler re, sherp derpus. Mer ner serp derpus cerp derpler ler perper. Herderder derp derpsum mer!
@@ -536,15 +554,21 @@ From the [Images section](https://squidfunk.github.io/mkdocs-material/reference/
 
 ```html
 <figure markdown>
-  ![Image title](https://dummyimage.com/600x400/){ width="300" align="right"}
+  ![Image title](https://dummyimage.com/600x400/){ width="300", align="left" }
   <figcaption>Image caption</figcaption>
 </figure>
 ```
 
 <figure markdown>
-  ![Image caption](https://dummyimage.com/600x400/){ width="300", align="right"}
+ ![Image title](https://dummyimage.com/200x20/eee/aaa){ align=left }
   <figcaption>Image caption</figcaption>
 </figure>
+Herp derpsum merpus ler derperker herpderpsmer. Pee sherper dee serp. Merpus re se ter derpsum me sherper herpler. Cerp herp derpy herpderpsmer tee. Herpem de mer, zerpus derpler sherpus der herpderpsmer ner. Merpus nerpy sherlamer derp! Me der berps, derp sherlamer. Ner derpsum se derpler nerpy. Derperker se derpus perper sherper. Re nerpy de derps ter. Herpderpsmer ler derpy ner pee derpsum herpem, cerp berp? Serp er zerpus merp berps terpus derperker cerp ler derp? Sherlamer derpler re, sherp derpus. Mer ner serp derpus cerp derpler ler perper. Herderder derp derpsum mer!
+<figure markdown>
+  ![Image title](https://dummyimage.com/200x200/){ align=left }
+  <figcaption>Image caption</figcaption>
+</figure>
+
 
 With no width attribute:
 
@@ -557,13 +581,13 @@ Below, image caption and left alignment was specified.
 
 ```html
 <figure markdown>
-  ![alt](https://dummyimage.com/250x250/){ align="left" }
+  ![alt](https://dummyimage.com/250x250/){ align=left }
   <figcaption>Image caption</figcaption>
 </figure>
 ```
 
 <figure markdown>
-  ![alt](https://dummyimage.com/250x250/){ align="left" }
+  ![alt](https://dummyimage.com/250x250/){ align=left }
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -637,6 +661,8 @@ Renders to
 
 ![an image](../assets/images/using-plotly/fig1.png){ width="300" }
 
+No image caption, and default alignment is left.
+
 ```html
 <figure markdown>
   ![alt](../assets/images/using-plotly/fig1.png){ width="300" }
@@ -650,6 +676,8 @@ Renders to
   ![alt](../assets/images/using-plotly/fig1.png){ width="300" }
   <figcaption>Image caption</figcaption>
 </figure>
+
+No image caption, and default alignment is center.
 
 !!! note
 
