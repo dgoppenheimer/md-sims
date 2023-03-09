@@ -116,7 +116,7 @@ markdown_extensions:
   - footnotes
   - meta
   - md_in_html
-  - markdown_captions
+ # - markdown_captions
   - toc:
       permalink: true
   - pymdownx.arithmatex:
@@ -170,6 +170,7 @@ nav:
   - User Guide:
     - Introduction: user-guide/introduction.md
     - Building This Site: user-guide/building-this-site.md
+    - user-guide/images-video.md
     - user-guide/using-plotly.md
     - user-guide/md-analysis/analysis-amber.md
     - user-guide/md-analysis/analysis-bio3d.md
