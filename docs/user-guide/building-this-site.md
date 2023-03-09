@@ -152,7 +152,7 @@ I thought I would try the automatic deployment one more time.
 
 !!! note
 
-    I got the file contents below from the[ Mkdocs developer GitHub repository](https://github.com/squidfunk/mkdocs-material/blob/master/requirements.txt) and modified it for my needs.
+    I got the file contents below from the [Mkdocs developer GitHub repository](https://github.com/squidfunk/mkdocs-material/blob/master/requirements.txt) and modified it for my needs.
 
 !!! example "requirements.txt"
 
@@ -188,6 +188,31 @@ I thought I would try the automatic deployment one more time.
     pymdown-extensions>=9.0
 
     ```
+
+I followed the instructions in the Material for MkDocs documentation on [Publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/) using the following `.github/workflows/ci.yml` file:
+
+```yaml
+name: ci 
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material 
+      - run: pip install mkdocs-video
+      - run: pip install markdown_captions
+      - run: mkdocs gh-deploy --force
+```
+
+
+
 
 Create a `gh-pages.yml` file with the contents listed below and put it into the `.github/workflows/` directory.
 
