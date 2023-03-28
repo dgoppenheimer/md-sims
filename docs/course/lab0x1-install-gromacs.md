@@ -401,7 +401,7 @@ Note that each model is preceded by a line that designates the model number (`MO
 
 ```bash
 # Here is the sed command
-sed -E -n '/^MODEL +1 /,/^ENDMDL/w 1qLz-model1.pdb' 1qlz.pdb
+sed -E -n '/^MODEL +1 /,/^ENDMDL/w 1qLz-model1.pdb' 1qLz.pdb
 ```
 
 #### Explanation of the `sed` Command

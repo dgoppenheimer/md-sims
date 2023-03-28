@@ -184,6 +184,7 @@ nav:
       -  user-guide/md-sims/mdsim-general.md
   
   - Reference: 
+    - reference/alphafold2.md
     - reference/ligplot.md
     - reference/ligpargen.md
     - reference/gromacs-tutorials.md
@@ -194,6 +195,7 @@ nav:
     - reference/example-articles.md
     - reference/useful-references.md
     - reference/unix-tools.md
+    - reference/diffdock.md
     - PDB Files:  reference/working-with-pdb-files.md
   - Course: 
     - course/index.md

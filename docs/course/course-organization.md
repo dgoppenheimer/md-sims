@@ -182,11 +182,16 @@ Use the [PASSer 2.0 server](https://passer.smu.edu/) to locate potential alloste
 
 Dock subsets of the Zinc chemical database using [Gnina](https://github.com/gnina/gnina).
 
-Use MTiOpenScreen instead
+Optional: Use MTiOpenScreen instead
 
 Validate the docking using molecular dynamics simulations.
 
 Analyze simulations with and without inhibitor.
+
+Prepare paper using template
+Prepare online slide presentation
+(optional: prepare YouTube presentation using template)
+
 
 AI in Drug Discovery
 

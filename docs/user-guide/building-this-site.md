@@ -168,9 +168,6 @@ jobs:
     Deployment of the site on GitHub works when I push changes to the repository.
 
 
-
-
-
 ## Customizing the Site
 
 ### Add an `extra.css` file
@@ -411,17 +408,6 @@ $$
 \operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
 $$
 
-## Plugin for Video
-
-[mkdocs-video plugin](https://github.com/soulless-viewer/mkdocs-video)
-
-Images used for Jupyter need an odd syntax, but local images can be standard Markdown. Also can use html in markdown.
-
-### Usage
-
-```markdown
-![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
-```
 
 ## Image Captions
 
@@ -546,7 +532,7 @@ Herp derpsum merpus ler derperker herpderpsmer. Pee sherper dee serp. Merpus re 
 <br/>
 <br/>
 
-For Google Colab images, using `markdown` in `html` allows both resizing the image and specifying its alignment. But you still don't get a caption.
+For Google Colab images, using `html` in `markdown` allows both resizing the image and specifying its alignment. But you still don't get a caption.
 
 ```html
 [<img src="https://github.com/dgoppenheimer/notebook-images/blob/main/connect.png?raw=true" alt="connect to a runtime" width="250" align="right"/>](https://github.com/dgoppenheimer/notebook-images/blob/main/connect.png?raw=true)
