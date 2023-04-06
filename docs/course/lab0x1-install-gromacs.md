@@ -407,13 +407,15 @@ sed -E -n '/^MODEL +1 /,/^ENDMDL/w 1qLz-model1.pdb' 1qLz.pdb
 #### Explanation of the `sed` Command
 
 - `sed -E` use extended regular expressions  
-- `-n` do not echo every line to output  
-- `'/START/,/STOP/'` pattern to search for; we start at lines that begin with `MODEL 1` and end with lines that begin with `ENDMDL`  
+- `-n` do not echo every line to output
+- `' ... '` enclose the search commands in single quotes
+- `/START/,/STOP/` pattern to search for; we start at lines that begin with `MODEL 1` and end with lines that begin with `ENDMDL`  
 - `^` is Regex for the beginning of a line  
 - `<space> +` search for 1 or more spaces  
 - `1 <space>`, search for the number 1 followed by a space (or else you get model 19)  
-- `w 1qLz-model1.pdb` write the output to the file `1qLz-model1.pdb`  
-- `1qlz.pdb` is the input file
+- `w` write the output to the following file
+- `1qLz-model1.pdb` file name of the output file  
+- `1qLz.pdb` is the input file
 
 ---
 <a name="cite_note-1"></a>1. It is possible to extract blocks of text using `grep` but it is not as easy as using `sed`.[&#8617;](#cite_ref-1)

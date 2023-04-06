@@ -38,7 +38,7 @@ The [What If](https://swift.cmbi.umcn.nl/servers/html/index.html) webserver can 
 
 The command line program [Reduce](https://github.com/rlabduke/reduce) can be used to add hydrogens to protein structures. This is the program that is used on the MolProbity website. See more at the [Reduce Overview](http://molprobity.biochem.duke.edu/help/reduce_guide/reduce_guide.html) web site.
 
-[PDBFixer](https://github.com/openmm/pdbfixer) is part of the OpenMM suite of programs.
+[PDBFixer](https://github.com/openmm/pdbfixer) is part of the OpenMM suite of programs. Note: PDBFixer sometimes messes up rotomers.
 
 [Open Babel](http://openbabel.org/wiki/Main_Page) can be used to add polar hydrogens to protein structures using the command line. This could be potentially used within a Jupyter Notebook, but I need to check on how decisions about hydrogen additions are made.
 

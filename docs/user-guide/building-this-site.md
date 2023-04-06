@@ -403,11 +403,31 @@ $$
 $$
 ```
 
-
 $$
 \operatorname{ker} f=\{g\in G:f(g)=e_{H}\}{\mbox{.}}
 $$
 
+## Admonitions
+
+Admonitions are also called call out boxes, and are a nice way to introduce notes or comments without greatly disrupting the flow of the document. I use [Obsidian](https://obsidian.md/) to take notes and compose markdown documents. The Obsidian [syntax for call outs](https://help.obsidian.md/Editing+and+formatting/Callouts) is different from the [syntax for admonitions](https://squidfunk.github.io/mkdocs-material/reference/admonitions/) in Material for MkDocs. This precludes moving documents composed in Obsidian directly to MkDocs if you want admonitions to work. However, this problem is solved by the [mkdocs-callouts 1.9.0](https://pypi.org/project/mkdocs-callouts/) plugin, which converts the Obsidian syntax to the Material for MkDocs syntax.
+
+### Install the mkdocs-callouts plugin
+
+```zsh
+cd ~/Sites/md-sims
+pip install mkdocs-callouts
+```
+
+### Enable the plugin in `mkdocs.yml`
+
+Add the following line to the `plugins` section of `mkdocs.yml`:
+
+```yml
+plugins:
+  - mkdocs-video
+  - search
+  - callouts
+```
 
 ## Image Captions
 
