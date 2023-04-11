@@ -26,11 +26,7 @@ This will allow you to save your notebooks to a dedicated Google Drive that does
 
 - If you already have a Google account, Click on your profile picture, then click on `Add another account`.
 
-{{< imgproc g-account-profile.png Resize "550x" >}}
-Click profile
-{{< /imgproc >}}
-
-![Google account profile](images/lab00/g-account-profile.png)
+![Google account profile](../assets/images/lab00/g-account-profile.png)
 
 {{< imgproc add-account.png Resize "350x" >}}
 Add another account

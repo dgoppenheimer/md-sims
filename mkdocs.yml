@@ -197,7 +197,6 @@ nav:
     - reference/useful-references.md
     - reference/unix-tools.md
     - reference/diffdock.md
-    - reference/gromacs-linux.2023-04-06.md
     - PDB Files:  reference/working-with-pdb-files.md
   - Course: 
     - course/index.md
