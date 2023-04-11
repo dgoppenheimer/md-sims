@@ -7,11 +7,13 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material 
-      - run: pip install mkdocs-video
-      - run: pip install markdown_captions
+      - run: pip install \
+              mkdocs-material \
+              mkdocs-video \
+              mkdocs-callouts \
+              markdown_captions
       - run: mkdocs gh-deploy --force

@@ -167,6 +167,33 @@ jobs:
 
     Deployment of the site on GitHub works when I push changes to the repository.
 
+#### Updating GitHub Actions
+
+According to the[ GitHub Blog](https://github.blog/changelog/2022-09-22-github-actions-all-actions-will-begin-running-on-node16-instead-of-node12/), all GitHub Actions will begin running on Node16 instead of Node12. I need to update my Actions to continue automatic deployment.
+
+Update the `.github/workflows/ci.yml` file:
+
+```yaml
+name: ci 
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - run: pip install \
+              mkdocs-material \
+              mkdocs-video \
+              mkdocs-callouts \
+              markdown_captions
+      - run: mkdocs gh-deploy --force
+```
 
 ## Customizing the Site
 
