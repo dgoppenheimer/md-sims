@@ -8,14 +8,24 @@ I can't really use the "*A Practical Approach*" subheading as it is part of a se
 
 ## draft titles
 
-- AI in Drug Discovery
+- Practical Molecular Dynamics
+- **AI in Drug Discovery**
 - Using AI in Drug Discovery
 - Leveraging AI in Drug Discovery
 - Application of AI in Drug Discovery
 - **An AI Approach to Drug Discovery**
 - Drug Discovery Using AI
+- **Practical Molecular Dynamics -- an AI Approach**
+- Molecular Dynamics in Drug Discovery
 
-The *An AI Approach to Drug Discovery* title is the best so far. 
+### Subtitles
+
+- a hands-on approach
+- a hands-on approach using AI
+
+The *An AI Approach to Drug Discovery* title is the best so far. It is not perfect in that it implies more AI than the course will deliver. However, the course summary will very explicitly list what the course is and is not.
+
+The *Practical Molecular Dynamics* title is not perfect. The course will only use GROMACS and relatively small, soluble proteins. A course focusing on using molecular dynamics simulations would ideally need to at least touch on NAMD, OpenMM, CHARMM, and AMBER, and explain force fields.
 
 
 
